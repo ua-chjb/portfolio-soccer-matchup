@@ -9,8 +9,8 @@ import pandas as pd
 
 # read in data
 
-home_repo = "C:/Users/benno/OneDrive/Python/Dash/Deployment_ready/soccer_scores/deploy2/assets/data/home_all.csv"
-away_repo = "C:/Users/benno/OneDrive/Python/Dash/Deployment_ready/soccer_scores/deploy2/assets/data/away_all.csv"
+home_repo = "https://raw.githubusercontent.com/ua-chjb/portfolio-soccer-matchup/refs/heads/main/assets/data/home_all.csv"
+away_repo = "https://raw.githubusercontent.com/ua-chjb/portfolio-soccer-matchup/refs/heads/main/assets/data/away_all.csv"
 
 home = pd.read_csv(home_repo)
 away = pd.read_csv(away_repo)
